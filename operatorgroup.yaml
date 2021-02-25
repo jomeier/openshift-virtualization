@@ -1,8 +1,8 @@
-- apiVersion: operators.coreos.com/v1
-  kind: OperatorGroup
-  metadata:
-    generateName: openshift-cnv-
-    namespace: openshift-cnv
-  spec:
-    targetNamespaces:
-    - openshift-cnv
+apiVersion: operators.coreos.com/v1
+kind: OperatorGroup
+metadata:
+  name: openshift-cnv-sepp
+  namespace: openshift-cnv
+spec:
+  targetNamespaces:
+  - openshift-cnv
